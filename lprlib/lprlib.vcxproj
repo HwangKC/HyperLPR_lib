@@ -140,7 +140,7 @@ copy /y *.h  "$(SolutionDir)sdk\inc"</Command>
     </Link>
     <PostBuildEvent>
       <Command>if not exist "$(SolutionDir)sdk" md  "$(SolutionDir)sdk"
-if not exist "$(SolutionDir)sdk\inc"md  "$(SolutionDir)sdk\inc"
+if not exist "$(SolutionDir)sdk\inc" md  "$(SolutionDir)sdk\inc"
 if not exist "$(SolutionDir)sdk\lib" md  "$(SolutionDir)sdk\lib"
 if not exist "$(SolutionDir)sdk\bin" md  "$(SolutionDir)sdk\bin"
 @echo off
